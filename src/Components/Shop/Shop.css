@@ -22,3 +22,31 @@
     margin-left: 105px;
     font-weight: 500;
 }
+
+
+@media screen and (max-width: 480px) {
+    .products {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 10px;
+        margin: auto;
+    }
+
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading {
+        margin: 5px;
+        color: rgb(120, 105, 253);
+        font-weight: 600;
+    }
+
+    .cart-container{
+        justify-content: center;
+        margin: auto;
+    }
+}

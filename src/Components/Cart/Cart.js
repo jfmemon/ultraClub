@@ -92,7 +92,7 @@ const Cart = ({ cart }) => {
                         <p style={{ color: 'gray' }}><span>$ </span>{price}</p>
                     </div>
                     <div className="showBreakTime">
-                        <p>Break time: </p>
+                        <p>Break time<span>(seconds)</span>: </p>
                         <p id='showBreakTime' style={{ color: 'gray' }}></p>
                     </div>
                 </div>
