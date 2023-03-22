@@ -1,0 +1,145 @@
+.cart {
+    position: sticky;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 0px 15px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.profile-details h3 {
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.profile-details p {
+    margin-top: 0;
+}
+
+.measurement {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    background-color: rgba(244, 255, 245, 0.952);
+    border-radius: 10px;
+    margin: 15px 0px;
+}
+
+.weight h3 sub {
+    font-weight: lighter;
+    color: rgb(168, 168, 168);
+}
+
+.height h3 sub {
+    font-weight: lighter;
+    color: rgb(168, 168, 168);
+}
+
+.age h3 sub {
+    font-weight: lighter;
+    color: rgb(168, 168, 168);
+}
+
+.weight h3 {
+    margin-bottom: 0;
+}
+
+.weight p {
+    margin-top: 0;
+    color: gray;
+}
+
+.height h3 {
+    margin-bottom: 0;
+}
+
+.height p {
+    margin-top: 0;
+    color: gray;
+}
+
+.age h3 {
+    margin-bottom: 0;
+}
+
+.age p {
+    margin-top: 0;
+    color: gray;
+}
+
+.break {
+    margin-top: 30px;
+}
+
+.addBreak {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: rgba(244, 255, 245, 0.952);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.addBreak button {
+    border: 0;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
+
+.addBreak button p {
+    font-weight: bold;
+}
+
+.totalPrice {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(244, 255, 245, 0.952);
+    margin-bottom: 15px;
+    padding: 0px 10px;
+}
+
+.totalPrice p {
+    font-weight: 500;
+}
+
+.showBreakTime {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(244, 255, 245, 0.952);
+    padding: 0px 10px;
+}
+
+.showBreakTime p {
+    font-weight: 500;
+}
+
+.calculation {
+    margin-top: 25px;
+}
+
+.calculation button {
+    width: 100%;
+    border: 0;
+    background-color: rgb(120, 105, 253);
+    border-radius: 7px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.calculation button p {
+    font-weight: bold;
+    color: white;
+}

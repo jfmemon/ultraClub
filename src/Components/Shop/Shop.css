@@ -1,0 +1,24 @@
+.main-container {
+    background-color: rgba(244, 255, 245, 0.952);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px 105px;
+}
+
+.heading {
+    margin-left: 105px;
+    margin-top: 70px;
+    color: rgb(120, 105, 253);
+    font-weight: 600;
+}
+
+.second-heading {
+    margin-left: 105px;
+    font-weight: 500;
+}
